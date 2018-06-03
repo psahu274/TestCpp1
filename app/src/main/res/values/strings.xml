@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NTS</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_setting">Settings</string>
+
+    <string name="action_add">Add</string>
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Description</string>
+    <string name="idea_checkbox">Idea</string>
+    <string name="important_checkbox">Important</string>
+    <string name="todo_checkbox">ToDo</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="ok_button">Ok</string>
+
+    <string name="sound_checkbox">On or Off</string>
+    <string name="settings_title">Settings</string>
+    <string name="sound_title">Sound</string>
+    <string name="anims_title">Animation</string>
+    <string name="rb_fast">Fast</string>
+    <string name="rb_slow">Slow</string>
+    <string name="rb_none">None</string>
+
+    <string name="facebook_app_id">228870134547344</string>
+    <string name="fb_login_protocol_scheme">fb228870134547344</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="18dp"
+        android:id="@+id/editTitle"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:hint="@string/title_hint" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:layout_marginTop="21dp"
+        android:id="@+id/editDescription"
+        android:layout_below="@+id/editTitle"
+        android:layout_alignLeft="@+id/editTitle"
+        android:layout_alignStart="@+id/editTitle"
+        android:padding="10dp"
+        android:hint="@string/description_hint" />
+
+    <CheckBox
+        android:text="@string/idea_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDescription"
+        android:layout_alignLeft="@+id/editDescription"
+        android:layout_alignStart="@+id/editDescription"
+        android:layout_marginTop="10dp"
+        android:id="@+id/checkBoxIdea"
+        android:padding="10dp" />
+
+    <CheckBox
+        android:text="@string/todo_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxIdea"
+        android:layout_alignLeft="@+id/checkBoxIdea"
+        android:layout_alignStart="@+id/checkBoxIdea"
+        android:id="@+id/checkBoxToDo"
+        android:padding="10dp" />
+
+    <CheckBox
+        android:text="@string/important_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxToDo"
+        android:layout_alignLeft="@+id/checkBoxToDo"
+        android:layout_alignStart="@+id/checkBoxToDo"
+        android:padding="10dp"
+        android:id="@+id/checkBoxImportant" />
+
+
+</RelativeLayout>
